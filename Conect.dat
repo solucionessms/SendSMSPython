@@ -1,0 +1,20 @@
+[DB]
+StringDB = Driver={SQL Server Native Client 11.0};Server=AXNER-HP\JERMSOFT;Database=365DB_2;Uid=sa;Pwd=jerm
+
+[CUENTA]
+lic = AAYfAQEdBnYeAx4UBggUDAI=
+modo = Aw==
+
+[MODEMS]
+formatos = AgQABB0HBwEZFQYECA8eBgYCBxwBAwIB
+nums = AgQAAgIHAwUaAAM=
+
+[WEB]
+srv = AQYER1RVHVdJV0UeV1xG
+
+[SMTP]
+smtp = QV1FQB9QXlJEVRhTVlQ=
+port = BwgG
+login = AQYEXV5ZWkdCS1NfeV5fV1tcH1NeWg==
+password = AAAAAAAAAAA=
+

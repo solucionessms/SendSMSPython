@@ -1,0 +1,26 @@
+Not Comunicate Device... Traceback (most recent call last):
+  File "C:\Proyectos\Bbitbucket 365\SMS_Jermsoft 8.1\Device.py", line 972, in proceso
+    self.LeerSMS()
+  File "C:\Proyectos\Bbitbucket 365\SMS_Jermsoft 8.1\Device.py", line 776, in LeerSMS
+    respuesta = self.LeerBufferSMS()
+  File "C:\Proyectos\Bbitbucket 365\SMS_Jermsoft 8.1\Device.py", line 653, in LeerBufferSMS
+    while self.MODEM.inWaiting() >= 1:
+  File "C:\Python\Python27\lib\site-packages\serial\serialutil.py", line 529, in inWaiting
+    return self.in_waiting
+  File "C:\Python\Python27\lib\site-packages\serial\serialwin32.py", line 254, in in_waiting
+    raise SerialException('call to ClearCommError failed')
+SerialException: call to ClearCommError failed
+ - None - 22 - 29 Apr 16 17:16:58
+Not Comunicate Device... Traceback (most recent call last):
+  File "C:\Proyectos\Bbitbucket 365\SMS_Jermsoft 8.1\Device.py", line 976, in proceso
+    senal = self.DameSenal()
+  File "C:\Proyectos\Bbitbucket 365\SMS_Jermsoft 8.1\Device.py", line 624, in DameSenal
+    respuesta = self.LeerBuffer()
+  File "C:\Proyectos\Bbitbucket 365\SMS_Jermsoft 8.1\Device.py", line 671, in LeerBuffer
+    while self.MODEM.inWaiting() >= 1:
+  File "C:\Python\Python27\lib\site-packages\serial\serialutil.py", line 529, in inWaiting
+    return self.in_waiting
+  File "C:\Python\Python27\lib\site-packages\serial\serialwin32.py", line 254, in in_waiting
+    raise SerialException('call to ClearCommError failed')
+SerialException: call to ClearCommError failed
+ - None - 22 - 29 Apr 16 17:19:01
