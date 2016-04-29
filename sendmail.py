@@ -6,7 +6,7 @@ from email.mime.text import MIMEText
 
 def EnviarEmailPlain(dest,asu,msg):
     user = 'jramirez@tecnologiaavl.com'
-    password = 'jermsoft'
+    password = '*******'
 
     #Cabeceras del Email
     destinatario = dest
@@ -40,7 +40,7 @@ def EnviarEmailHTML(dest,asu,msg):
     #user = '365monitoreo@gmail.com'
     #password = '20101733'
     user = 'jramirez@tecnologiaavl.com'
-    password = 'jermsoft'
+    password = '**********'
 
     #Cabeceras del Email
     destinatario = dest
